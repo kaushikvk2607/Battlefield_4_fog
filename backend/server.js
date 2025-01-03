@@ -37,7 +37,7 @@ app.get('/health', (req, res) => {
 
 // Handle React routing
 app.get('*', (req, res) => {
-  res.json("Hey this is made by exploring solver")
+  res.json("Hey this is made by Vikas Kaushik.")
 });
 
 const PORT = process.env.PORT || 5000;
